@@ -1,0 +1,9 @@
+<p class="status-bar">
+
+  <span [ngClass]="{active: gameService.currentPlayer === 1 }">player1 : X</span>
+
+  {{gameService.currentPlayer}}
+
+  <span [ngClass]="{active: gameService.currentPlayer === 2 }">player2: O</span>
+
+</p>

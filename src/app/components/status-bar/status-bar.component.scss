@@ -1,0 +1,15 @@
+.status-bar {
+  width: 300px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.active {
+  color: lime;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px black;
+  font-size: larger;
+}
